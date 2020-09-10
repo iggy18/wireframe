@@ -1,0 +1,75 @@
+body {
+    background-color: #bfd2bfff;
+    width: 999px;
+    margin: auto;
+}
+
+header {
+    background-color: #839d9aff;
+    width: 960px;
+    height: 100px;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+}
+
+nav{
+    width: 980px;
+}
+
+nav a {
+    float: right;
+    margin:  9%
+}
+
+header div{
+    background-color:#7bb2d9ff;
+    display: inline-block;
+    width: 200px;
+    height: 70px;  
+}
+
+main{
+    background-color: #646f4bff;
+    width: 960px;
+    height: 450px;
+    margin: 15px 15px 15px 15px;
+}
+
+article div {
+    display: inline;
+    margin: 15px 7.5px 7.5px 15px;
+}
+
+section div{
+    margin: auto;
+   float: right;
+}
+
+section div img{
+    /* float: right; */
+    margin: 15px;
+}
+
+section div p{
+    margin:15px;
+    position: relative;
+    float: right;
+    /* display: inline; */
+    width: 456px;
+    height: 400px;
+    overflow: auto; 
+}
+
+footer {
+    clear: both;
+    background-color: #646f4bff;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: yellow;
+  }
